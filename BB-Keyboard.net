@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/jps/github/BB-Keyboard/BB-Keyboard.sch)
-    (date "Saturday, 02 July 2016 22:12:22")
+    (date "Monday, 04 July 2016 13:49:35")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -340,12 +340,12 @@
         (pin (num 23) (name SCL) (type input))
         (pin (num 24) (name /INT) (type input)))))
   (libraries
-    (library (logical device)
-      (uri "/Library/Application Support/kicad/library/device.lib"))
+    (library (logical conn)
+      (uri "/Library/Application Support/kicad/library/conn.lib"))
     (library (logical TCA8418)
       (uri /Users/jps/github/BB-Keyboard/TCA8418.lib))
-    (library (logical conn)
-      (uri "/Library/Application Support/kicad/library/conn.lib")))
+    (library (logical device)
+      (uri "/Library/Application Support/kicad/library/device.lib")))
   (nets
     (net (code 1) (name SCL)
       (node (ref R1) (pin 2))
